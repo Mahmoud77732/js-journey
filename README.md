@@ -1,36 +1,109 @@
-# JavaScript Learning Journey
+# 🛠 JavaScript ES6 Practice Projects
 
-Welcome to my personal JavaScript learning repository!  
-This repo contains all the notes, code snippets, mini-projects, challenges, and resources I’ve used while learning JavaScript.
-
----
-
-## Why This Repo?
-
-I created this to:
-- Track my progress as I learn JavaScript
-- Keep all my notes and experiments in one place
-- Help others who are starting their own JavaScript journey
+This repository contains **two beginner-friendly projects** for learning **JavaScript ES6 syntax**, **DOM manipulation**, and **modules**. Each app is structured to demonstrate clean, modular code using modern JavaScript features.
 
 ---
 
-## Topics Covered
+## 📋 Projects Included
 
--  Basics (Variables, Data Types, Operators)
--  Functions and Scope
--  Arrays & Objects
--  Loops and Conditionals
--  DOM Manipulation
--  Events
--  ES6+ Features (let/const, arrow functions, spread, etc.)
--  Async JavaScript (Promises, async/await, fetch)
--  Error Handling
--  Modules
--  JavaScript in the Browser
--  Web APIs (localStorage, Geolocation, etc.)
--  Frameworks (React, Vue, etc.)
+### 1. **To-Do List App**
+
+A simple app to manage tasks — add and remove items with a clean ES6 class-based structure.
+
+**Features:**
+
+* Add new tasks
+* Remove existing tasks
+* ES6 Modules (`import` / `export`)
+* DOM manipulation for rendering tasks
+
+**Files:**
+
+```
+/todo-app
+  ├── index.html
+  ├── main.js
+  ├── todoList.js
+  ├── utils.js
+```
+
+**Preview:**
+
+* Input field for entering tasks
+* "Add Task" button
+* Task list with ❌ delete buttons
 
 ---
 
-## 📁 Folder Structure
+### 2. **Counter App**
+
+A minimal counter app to practice state management, events, and DOM updates.
+
+**Features:**
+
+* Increment, decrement, and reset the counter
+* ES6 class to manage state
+* Modular helper functions
+
+**Files:**
+
+```
+/counter-app
+  ├── index.html
+  ├── main.js
+  ├── counter.js
+  ├── utils.js
+```
+
+**Preview:**
+
+* Large counter display
+* "+" button to increment
+* "-" button to decrement
+* "Reset" button to reset to 0
+
+---
+
+## 🛠 Technologies Used
+
+* **HTML5** for structure
+* **CSS3** for styling
+* **JavaScript ES6** for logic
+
+  * `let` / `const`
+  * Template literals
+  * Arrow functions
+  * Classes
+  * Spread / Rest operators
+  * ES6 Modules (`import` / `export`)
+
+---
+
+## 📥 Installation & Setup
+
+1. Clone or download this repository.
+2. Open the desired project folder (`todo-app` or `counter-app`).
+3. Open the `index.html` file in your browser.
+
+---
+
+## 🔮 Possible Improvements
+
+* **To-Do App:**
+
+  * Save tasks to LocalStorage
+  * Mark tasks as completed
+  * Add animations
+
+* **Counter App:**
+
+  * Persist counter value in LocalStorage
+  * Add keyboard shortcuts
+  * Add multiple counters
+
+---
+
+## 📜 License
+
+This repository is licensed under the **MIT License**.
 
