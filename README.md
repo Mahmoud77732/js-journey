@@ -1,6 +1,6 @@
 # 🛠 JavaScript ES6 Practice Projects
 
-This repository contains **two beginner-friendly projects** for learning **JavaScript ES6 syntax**, **DOM manipulation**, and **modules**. Each app is structured to demonstrate clean, modular code using modern JavaScript features.
+This repository contains **three beginner-friendly projects** for learning **JavaScript ES6 syntax**, **DOM manipulation**, and **modules**. Each app is structured to demonstrate clean, modular code using modern JavaScript features.
 
 ---
 
@@ -27,12 +27,6 @@ A simple app to manage tasks — add and remove items with a clean ES6 class-bas
   ├── utils.js
 ```
 
-**Preview:**
-
-* Input field for entering tasks
-* "Add Task" button
-* Task list with ❌ delete buttons
-
 ---
 
 ### 2. **Counter App**
@@ -55,12 +49,28 @@ A minimal counter app to practice state management, events, and DOM updates.
   ├── utils.js
 ```
 
-**Preview:**
+---
 
-* Large counter display
-* "+" button to increment
-* "-" button to decrement
-* "Reset" button to reset to 0
+### 3. **Color Picker App**
+
+An interactive app to change the background color using a color picker or generate a random color.
+
+**Features:**
+
+* Choose color via input
+* Generate random color
+* ES6 class to manage color state
+* Smooth background transitions
+
+**Files:**
+
+```
+/color-picker-app
+  ├── index.html
+  ├── main.js
+  ├── colorManager.js
+  ├── utils.js
+```
 
 ---
 
@@ -82,7 +92,7 @@ A minimal counter app to practice state management, events, and DOM updates.
 ## 📥 Installation & Setup
 
 1. Clone or download this repository.
-2. Open the desired project folder (`todo-app` or `counter-app`).
+2. Open the desired project folder (`todo-app`, `counter-app`, or `color-picker-app`).
 3. Open the `index.html` file in your browser.
 
 ---
@@ -101,9 +111,15 @@ A minimal counter app to practice state management, events, and DOM updates.
   * Add keyboard shortcuts
   * Add multiple counters
 
+* **Color Picker App:**
+
+  * Save last selected color to LocalStorage
+  * Show color history
+  * Allow gradient backgrounds
+
 ---
 
 ## 📜 License
 
-This repository is licensed under the **MIT License**.
+This repository is open-source.
 
